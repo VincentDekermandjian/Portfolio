@@ -12,6 +12,7 @@ body {
 .sticky {
     position: fixed;
     top: 0;
+    margin-left: 23px
 }
 .overlay {
     height: 100%;
