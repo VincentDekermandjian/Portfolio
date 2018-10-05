@@ -10,9 +10,8 @@ body {
 /*  menu */
     
 .sticky {
-    position: sticky;
+    position: fixed;
     top: 0;
-    background-color: 
 }
 .overlay {
     height: 100%;
@@ -404,9 +403,9 @@ font-family: 'Indie Flower', cursive;
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
 	.PargAbout{
-		font-size: 1.4rem;
+		font-size: 2rem;
 	
 	}
     
