@@ -404,10 +404,18 @@ font-family: 'Indie Flower', cursive;
 
 
 
-@media screen and (max-width: 400px) {
-	.PargAbout{
-		font-size: 2rem;
-	
+@media screen and (max-width: 600px) {
+    P2GAUCHE{
+	width: 100%;
+	height: 50%;
+	background-color: #DBBCA4;
+	text-align: center;
+    }
+    .P2DROITE {
+	width: 100%;
+	height: 50%;
+	background-color: #DBBCA4;
+	text-align: center;
 	}
     
     
