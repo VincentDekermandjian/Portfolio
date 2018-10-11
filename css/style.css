@@ -8,7 +8,7 @@ body {
     background-color: #DBBCA4
 }
 
-/*  menu */
+/*  menu  */
 
 .sticky {
     position: fixed;
@@ -44,6 +44,7 @@ body {
     color: #818181;
     display: block;
     transition: 0.3s;
+    font-family: 'Comfortaa', cursive;
 }
 
 .overlay a:hover,
@@ -176,7 +177,7 @@ fin de menu */
 
 
 /*end buttom lang */
-
+/*menu top */
 #TDP {
 
     height:
@@ -206,7 +207,7 @@ li a {
     text-decoration: none;
 }
 
-
+/*menu top end*/
 
 #centre {
 
@@ -231,7 +232,7 @@ li a {
     animation: kenburns-top 3s ease-out infinite both;
 }
 
-
+/*bar logo*/
 #titre {
     background-color;
     height: 20%;
@@ -239,7 +240,7 @@ li a {
     margin-bottom: 30px;
 }
 
-
+/*logo facebook*/
 #titre2 {
     background-image: url(../src/fb.png);
     background-repeat: no-repeat;
@@ -248,6 +249,7 @@ li a {
 
 }
 
+/*logo twitter*/
 #titre3 {
     background-image: url(../src/twt.png);
     background-repeat: no-repeat;
@@ -255,6 +257,7 @@ li a {
     background-position: center;
 }
 
+/*logo linkedin*/
 #titre4 {
     background-image: url(../src/lin.png);
     background-repeat: no-repeat;
@@ -262,6 +265,7 @@ li a {
     background-position: center;
 }
 
+/*logo github*/
 #titre5 {
     background-image: url(../src/git.png);
     background-repeat: no-repeat;
@@ -269,6 +273,7 @@ li a {
     background-position: center;
 }
 
+/*logo cell phone*/
 #titre6 {
     background-image: url(../src/ph.png);
     background-repeat: no-repeat;
@@ -325,6 +330,9 @@ li a {
     width: 50%;
     height: 100%;
     background-color: #902C59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .P2DROITE {
@@ -336,16 +344,28 @@ li a {
 }
 
 .PargAbout {
-    font-family: 'Indie Flower', cursive;
-    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
     align-self: center;
-
-
-
+ 
 
 }
 
+.p2p {
+    width: 80%;
+    max-width: 500px
+}
 
+/*
+.pics{
+background: url(../src/pdp.png);
+    height: 330px;
+    width: 310px;
+    background-position: center;
+    padding: 15px;
+    background-size: cover;
+}
+*/
 
 
 #page3 {
@@ -453,8 +473,19 @@ li a {
         height: 50%;
         background-color: #902C5C;
         text-align: center;
+
     }
 
+    .p2p {
+        width: 90%;
+        max-width: 350px
+    }
+    .PargAbout {
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    align-self: center;
+    height: 100%;
+    overflow: scroll;
 
-
+}
 }
