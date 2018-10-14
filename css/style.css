@@ -322,7 +322,7 @@ li a {
     height: 100vh;
     background-color: #FFDCBA;
     align-items: flex-start;
-    flex-direction: row;
+    flex-direction: column;
     flex-flow: wrap;
     background-color: #DBBCA4;
 
@@ -344,14 +344,28 @@ li a {
     width: 50%;
     height: 100%;
     background-color: #DBBCA4;
-    text-align: center;
+    align-content: center;
+    flex-direction: column;
 }
 
-.PargAbout {
+#PargAbout1 {
     font-family: 'Comfortaa', cursive;
-    font-size: 25px;
-    align-self: center;
+    text-align: center;
+    padding: 15px;
+    font-size: 26px
+}
+#PargAbout2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px
 
+}
+#PargAbout3 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px
 
 }
 
