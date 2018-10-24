@@ -117,7 +117,8 @@ fin de menu */
     line-height: 24px;
     font-size: 18px;
     color: white;
-    font-family: Trebuchet, Arial, sans-serif;
+    font-family: 'Cabin', sans-serif;
+
     font-weight: bold;
     box-sizing: border-box;
 }
@@ -167,7 +168,7 @@ fin de menu */
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-image: url(../src/OfficePink.jpg);
+    background-image: url(../src/background_/OfficePink.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -185,7 +186,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: visible;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Cabin', sans-serif;
+
 
 }
 
@@ -219,7 +221,7 @@ li a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 50%;
+    height: 90%;
 }
 
 /* Anim logo */
@@ -278,6 +280,7 @@ li a {
 
 }
 
+/*Text Dev full stack*/
 #info {
     height: 30%;
     display: flex;
@@ -288,6 +291,31 @@ li a {
     font-size: 1.4rem;
 }
 
+/*logo sociaux*/
+.flex-container {
+    height: 80%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item_titre {
+    width: inherit;
+}
+
+.infobar {
+    border-bottom: 1px solid;
+    margin: 0;
+    width: inherit;
+    height: 50%;
+    color: black;
+
+}
+
+/*fin logo sociaux*/
 .BDP {
     height: 10%;
     width: inherit;
@@ -325,10 +353,11 @@ li a {
     flex-direction: column;
     flex-flow: wrap;
     background-color: #DBBCA4;
-
+    justify-content: center;
 
 }
 
+/*div gauche*/
 .P2GAUCHE {
     width: 50%;
     height: 100%;
@@ -339,6 +368,7 @@ li a {
     border-radius: 0 15px 15px 0;
 }
 
+/*div droite*/
 .P2DROITE {
     display: flex;
     width: 50%;
@@ -346,32 +376,34 @@ li a {
     background-color: #DBBCA4;
     align-content: center;
     flex-direction: column;
+    justify-content: center;
+
 }
 
 #PargAbout1 {
-    font-family: 'Comfortaa', cursive;
     text-align: center;
     padding: 15px;
-    font-size: 26px
+    font-size: 26px;
+    font-family: 'Comfortaa', cursive;
 }
+
 #PargAbout2 {
     font-family: 'Comfortaa', cursive;
-    font-size: 20px;
+    font-size: 21px;
     text-align: center;
-    padding: 15px
-
+    padding: 15px;
 }
-#PargAbout3 {
-    font-family: 'Comfortaa', cursive;
-    font-size: 20px;
-    text-align: center;
-    padding: 15px
 
+#PargAbout3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20.5px;
+    text-align: center;
+    padding: 15px;
 }
 
 .p2p {
-    width: 80%;
-    max-width: 500px
+    width: 90%;
+    max-width: 500px;
 }
 
 /*
@@ -387,9 +419,34 @@ background: url(../src/pdp.png);
 
 
 #page3 {
+    display: flex;
     height: 100vh;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-flow:  column;
+    background-color: #DBBCA4;
+
+    
+}
+#blanc2 {
+    height: 5%;
+    width: 100%;
     background-color: #DBBCA4;
 }
+.backgroundP3{
+     
+    height: 30%;
+    width: 100%;
+      background-image: url(../src/background_/Skillz.jpg) !important;
+    background-position: top;
+    background-size: cover;
+}
+.p3BAS{
+    height: 70%;
+}
+
+
+
 
 #page4 {
     height: 100vh;
@@ -403,30 +460,9 @@ background: url(../src/pdp.png);
 
 
 
-.flex-container {
-    height: 80%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.item_titre {
-    width: inherit;
-}
-
-.infobar {
-    border-bottom: 1px solid;
-    margin: 0;
-    width: inherit;
-    height: 50%;
-    color: black;
-
-}
 
 
+/*Anim logo*/
 @-webkit-keyframes kenburns-top {
     0% {
         -webkit-transform: scale(1) translateY(0);
@@ -448,11 +484,6 @@ background: url(../src/pdp.png);
         -webkit-transform-origin: top;
         transform-origin: top;
     }
-
-
-
-
-
 }
 
 @keyframes kenburns-top {
@@ -478,12 +509,30 @@ background: url(../src/pdp.png);
     }
 }
 
-@media screen and (max-width: 650px) {
+/*Responsive*/
+@media screen and (max-width: 600px) {
+
+    #page2 {
+        display: flex;
+        height: 100vh;
+        background-color: #FFDCBA;
+        align-items: flex-start;
+        flex-direction: column;
+        flex-flow: wrap;
+        background-color: #DBBCA4;
+        justify-content: center;
+        
+
+    }
+
     .P2DROITE {
         width: 100%;
         height: 50%;
         background-color: #DBBCA4;
         text-align: center;
+        justify-content: flex-start;
+        overflow: scroll;
+
     }
 
     .P2GAUCHE {
@@ -492,13 +541,17 @@ background: url(../src/pdp.png);
         background-color: #902C5C;
         text-align: center;
         border-radius: 0 0 10px 10px;
+    }
 
-
+    #blanc2 {
+        height: 5%;
+        width: 100%;
+        background-color: #DBBCA4;
     }
 
     .p2p {
-        width: 85%;
-        max-width: 330px
+        width: 75%;
+        max-width: 100%
     }
 
 
@@ -546,14 +599,16 @@ background: url(../src/pdp.png);
     .pBDPS {
         font-size: 1.2rem
     }
+
     .BDP {
-    height: 10%;
-    width: inherit;
-    font-family: 'Indie Flower', cursive;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: black;
+        height: 10%;
+        width: inherit;
+        font-family: 'Indie Flower', cursive;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: black;
+    }
 }
