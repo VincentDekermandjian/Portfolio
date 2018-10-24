@@ -329,11 +329,11 @@ li a {
 }
 
 .pBDP {
-    font-size: 3rem
+    font-size: 3rem;
 }
 
 .pBDPS {
-    font-size: 1.2rem
+    font-size: 1.2rem;
 }
 
 #blanc {
@@ -417,7 +417,12 @@ background: url(../src/pdp.png);
 }
 */
 
-
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%
+}
 #page3 {
     display: flex;
     height: 100vh;
@@ -441,8 +446,20 @@ background: url(../src/pdp.png);
     background-position: top;
     background-size: cover;
 }
-.p3BAS{
+#compDiv{
+    padding: 25px;
     height: 70%;
+    width: 50%;
+    font-family: 'Comfortaa', cursive;
+    
+    
+}
+#compDev{
+    height: 70%;
+    width: 50%;
+    padding: 25px;
+    
+
 }
 
 
@@ -450,7 +467,7 @@ background: url(../src/pdp.png);
 
 #page4 {
     height: 100vh;
-    background-color: #DBBCA4
+    background-color: #DBBCA4;
 }
 
 #page5 {
@@ -551,7 +568,7 @@ background: url(../src/pdp.png);
 
     .p2p {
         width: 75%;
-        max-width: 100%
+        max-width: 100%;
     }
 
 
@@ -581,7 +598,7 @@ background: url(../src/pdp.png);
         float: left;
         list-style: none;
         font-size: 8px;
-        letter-spacing: -0.7px
+        letter-spacing: -0.7px;
     }
 
     li a {
@@ -597,7 +614,7 @@ background: url(../src/pdp.png);
     }
 
     .pBDPS {
-        font-size: 1.2rem
+        font-size: 1.2rem;
     }
 
     .BDP {
