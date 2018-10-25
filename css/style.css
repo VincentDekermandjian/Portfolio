@@ -458,6 +458,8 @@ background: url(../src/pdp.png);
     height: 70%;
     width: 50%;
     font-family: 'Comfortaa', cursive;
+     align-items: center;
+    text-align: center;
 
 
 }
@@ -480,7 +482,7 @@ justify-content: space-between;
 
 .row1 {
     display: flex;
-justify-content: space-around;
+justify-content: space-between;
     align-items: flex-end;
 }
 
