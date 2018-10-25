@@ -361,11 +361,13 @@ li a {
 .P2GAUCHE {
     width: 50%;
     height: 100%;
-    background-color: #902C59;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 0 15px 15px 0;
+    background-image: url(../src/background_/Skillz.jpg);
+    background-size: cover;
+    
 }
 
 /*div droite*/
@@ -471,6 +473,12 @@ background: url(../src/pdp.png);
 }
 
 .row {
+    display: flex;
+justify-content: space-between;
+    align-items: flex-end;
+}
+
+.row1 {
     display: flex;
 justify-content: space-around;
     align-items: flex-end;
