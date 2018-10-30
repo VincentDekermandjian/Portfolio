@@ -629,7 +629,7 @@ li a {
 
     #page2 {
         display: flex;
-        height: 100vh;
+        height: 200vh;
         background-color: #FFDCBA;
         align-items: flex-start;
         flex-direction: column;
@@ -760,6 +760,15 @@ li a {
   margin: 0;
   padding: 0;
 }
+     #page3 {
+        display: flex;
+        height: 250vh;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-flow: column;
+        background-color: #DBBCA4;
+    }
+    
 }
 
 @media screen and (min-width: 780px) {
