@@ -9,6 +9,7 @@ body {
 }
 
 /*  menu  */
+/* ---- grid ---- */
 
 .sticky {
     position: fixed;
@@ -367,7 +368,7 @@ li a {
     border-radius: 0 15px 15px 0;
     background-image: url(../src/background_/Skillz.jpg);
     background-size: cover;
-    
+
 }
 
 /*div droite*/
@@ -408,17 +409,6 @@ li a {
     max-width: 500px;
 }
 
-/*
-.pics{
-background: url(../src/pdp.png);
-    height: 330px;
-    width: 310px;
-    background-position: center;
-    padding: 15px;
-    background-size: cover;
-}
-*/
-
 .flex-container1 {
     display: flex;
     flex-direction: row;
@@ -429,11 +419,22 @@ background: url(../src/pdp.png);
 
 #page3 {
     display: flex;
-    height: 100vh;
+    height: 130vh;
     align-items: flex-start;
     flex-direction: row;
     flex-flow: column;
     background-color: #DBBCA4;
+}
+
+#tiltePage3 {
+    text-align: center;
+    color: #DBBCA4;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Pacifico', cursive;
+    font-size: 3.2rem;
+    letter-spacing: 6px;
+
 
 
 }
@@ -446,43 +447,75 @@ background: url(../src/pdp.png);
 
 .backgroundP3 {
 
-    height: 30%;
+    height: 25%;
     width: 100%;
     background-image: url(../src/background_/Skillz.jpg) !important;
     background-position: top;
     background-size: cover;
+    display: inline-grid;
+    align-items: center;
+    flex-direction: row;
+}
+.backgroundPP3 {
+
+    height: 25%;
+    width: 100%;
+    background-image: url(../src/background_/Skillz.jpg) !important;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
+.backgroundPP3 h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 250%;
+    color: #DBBCA4;
+    letter-spacing: 3px;
+    padding-right: 15px
+}
+.backgroundPP3 img{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+     padding-right: 25px;
+}
 #compDiv {
     padding: 25px;
-    height: 70%;
-    width: 50%;
+    height: 50%;
+    width: 48%;
     font-family: 'Comfortaa', cursive;
-     align-items: center;
+    align-items: center;
     text-align: center;
+}
 
-
+#flexBack {
+    background-image: url(../src/background_/Skillz.jpg) !important;
+    width: 1%;
+    background-position: center;
 }
 
 #compDev {
-    height: 70%;
-    width: 50%;
+    height: 50%;
+    width: 48%;
     padding: 25px;
     font-family: 'Comfortaa', cursive;
     align-items: center;
     text-align: center
-
 }
 
 .row {
     display: flex;
-justify-content: space-between;
+    justify-content: space-between;
     align-items: flex-end;
 }
 
 .row1 {
     display: flex;
-justify-content: space-between;
+    justify-content: space-between;
     align-items: flex-end;
 }
 
@@ -490,17 +523,57 @@ justify-content: space-between;
 
 
 #page4 {
-    height: 100vh;
+    height: 120vh;
     background-color: #DBBCA4;
+}
+#page4 h1{
+    text-align: center;
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.2rem;
+    letter-spacing: 6px;}
+.mosaic-images {
+    margin: 30px;
+    margin-right: 30px
+    width: 100%;
+    height: 80vh;
+}
+.mosaic-images ul {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    background: #222;
+    position: relative;
+    overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.mosaic-images ul li {
+  box-shadow: inset 0px 0px 7px rgba(255,255,255,.5);
+  box-sizing:border-box;
+    display: block; 
+    float: left;
+    height: auto;
+    line-height: 0;
+    position: absolute;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.mosaic-images ul li:hover {
+    cursor: pointer;
+    opacity: .7;
+    transition: opacity .25s ease-out;
 }
 
 #page5 {
-    height: 100vh;
+    height: 150vh;
     background-color: #DBBCA4;
 }
-
-
-
 
 
 /*Anim logo*/
@@ -527,6 +600,7 @@ justify-content: space-between;
     }
 }
 
+
 @keyframes kenburns-top {
     0% {
         -webkit-transform: scale(1) translateY(0);
@@ -551,7 +625,7 @@ justify-content: space-between;
 }
 
 /*Responsive*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
 
     #page2 {
         display: flex;
@@ -652,4 +726,50 @@ justify-content: space-between;
         text-align: center;
         color: black;
     }
+    .backgroundPP3 h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 140%;
+    color: #DBBCA4;
+    letter-spacing: 3px;
+    padding-right: 15px
 }
+.backgroundPP3 img{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 15px;
+}
+}
+/*mosaic responsive*/
+@media screen and (max-width: 1200px){
+    .mosaic-images {
+    margin: 30px;
+    margin-right: 30px
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+}
+.mosaic-images ul {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    background: #222;
+    position: relative;
+    overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+}
+
+@media screen and (min-width: 780px) {
+    #page3 {
+        display: flex;
+        height: 190vh;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-flow: column;
+        background-color: #DBBCA4;
+    }
+}
+
