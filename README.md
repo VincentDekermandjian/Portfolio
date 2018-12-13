@@ -1,7 +1,7 @@
 # Portfolio
 
 	<!-- <p>Who I am?
-My name is Vincent Dekermandjian and I am currently student at It-Akademy (Lyon) to be a Full-Stack Developer. I have been into design in all its forms for a longtime, I'm absolutely passionate about designing clear and intuitive interfaces. Being a very curious perfectionist always in quest of novelties, I constantly try to stay open and keep myself informed. In that respect, the evolution of the web always brings me all I need to satisfy my curiosity. I love working on ambitious projects with passionate people and I'm totally open to any offer when it comes to new projects. Now I am looking for an internship in Lyon for February.</p> -->
+My name is Vincent Dekermandjian and I am currently student at It-Akademy (Lyon) to be a Full-Stack Developer. I have been into design in all its forms for a longtime, I'm absolutely passionate about designing clear and intuitive interfaces. Being a very curiou evolution of the web always brings me all I need to satisfy my curiosity. I love working on ambitious projects with passionate people and I'm totally open to any offer when it comes to new projects. Now I am looking for an internship in Lyon for February.</p> -->
 
 
 
@@ -67,4 +67,4 @@ CSS {
         <span class="onoffswitch-inner"></span>
         <span class="onoffswitch-switch"></span>
     </label>
-</div>
+</div>s perfectionist always in quest of novelties, I constantly try to stay open and keep myself informed. In that respect, the
